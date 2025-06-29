@@ -1,3 +1,4 @@
+
 #  C Programs 
 
 This document includes all C source codes from arrays, strings, bitwise operations, pointers, and linked list examples.
@@ -7,7 +8,7 @@ This document includes all C source codes from arrays, strings, bitwise operatio
 
 ## Read n number of values in an array and display them in reverse order
 
-c
+```c
 // read n number of values in an array and display them in reverse order
 
 #include<stdio.h>
@@ -35,13 +36,13 @@ int main()
 
 	
 
-
+```
 
 ---
 
 ## Min and max elements in array
 
-c
+```c
 /*#include<stdio.h>
 int min_max(int arr[],int n){
 	int min,max,i;
@@ -94,13 +95,13 @@ int main(){
         printf("the maximum element is:%d\n",max);
 } 
 
-
+```
 
 ---
 
 ##  Nonrepeating element in the array
 
-c
+```c
 #include<stdio.h>
 void non_repeating(int arr[],int n)
 {
@@ -133,13 +134,13 @@ int main()
 }
 
 
-
+```
 
 ---
 
 ## Odd and even elements count in the array
 
-c
+```c
 #include<stdio.h>
 int even_odd_elements(int arr[],int n){
        int even[100],odd[100];
@@ -185,13 +186,13 @@ int main(){
 	return 0;
 }
 
-
+```
 
 ---
 
 ## Reverse the array
 
-c
+```c
 #include<stdio.h>
 
 int reverse_array(int arr[], int n){
@@ -222,13 +223,13 @@ int main()
         return 0;
 }
 
-
+```
 
 ---
 
 ## Find the second largest element in the given array
 
-c
+```c
 #include<stdio.h>
 int second_largest(int arr[],int n){
 	int first,second,i;
@@ -261,14 +262,14 @@ int main(){
 }
 
 
-
+```
 
 ---
 # Bitwise operators
 
 ## Print binary number of the given number
 
-c
+```c
 
 #include <stdio.h>
 
@@ -292,14 +293,14 @@ int main()
 }
 
 
-
+```
 
 ---
 # Linked list
 
 ## Delete a node from the linked list
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -399,13 +400,13 @@ int main()
 	display();
 }
 
-
+```
 
 ---
 
 ## Insert a node in the linked list
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -533,13 +534,13 @@ int main()
     display();
 }
 
-
+```
 
 ---
 
 ## Create a linked list
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -603,13 +604,13 @@ int main()
     
 }
 
-
+```
 
 ---
 
 ## Insert a node in the middle of the linked list
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -686,13 +687,13 @@ int main()
 
 
 
-
+```
 
 ---
 
 ## check whether the linked list is palindrome or not
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -766,13 +767,13 @@ int main()
         return 0;
 }
 
-
+```
 
 ---
 
 ##  reverse a linked list
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -842,13 +843,13 @@ int main()
 		
 
 
-
+```
 
 ---
 
 ##  sort a linked list
 
-c
+```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -915,13 +916,13 @@ int main()
         return 0;
 }
 
-
+```
 
 ---
 # Pointers
 ## print the value and address of array elements by subscripting a pointer variable
 
-c
+```c
 //Write a program to print the value and address of array elements by subscripting a pointer variable
 
 #include<stdio.h>
@@ -950,13 +951,13 @@ int main(){
 	return 0;
 }
 
-
+```
 
 ---
 
 ## print postfix/prefix increment/decrement in a pointer variable of base type int*
 
-c
+```c
 //Write a program to print postfix/prefix increment/decrement in a pointer variable of base type int*.
 /*
 #include <stdio.h>
@@ -989,13 +990,13 @@ int main(){
 
 }
 
-
+```
 
 ---
 # Strings
 ## count the total number of vowels or consonants in a string
 
-c
+```c
 // Write a program in C to count the total number of vowels or consonants in a string.
 
 #include<stdio.h>
@@ -1020,14 +1021,14 @@ int main()
 	return 0;
 }
 
-
+```
 
 ---
 
 ## sort a string array in ascending order.
 
 
-c
+```c
 //to sort a string array in ascending order.
 
 #include<stdio.h>
@@ -1067,13 +1068,13 @@ int main()
 }
 
 
-
+```
 
 ---
 
 ##  maximum number of characters in a string
 
-c
+```c
 // program in C to find the maximum number of characters in a string
 
 #include<stdio.h>
@@ -1107,13 +1108,13 @@ int main()
 	return 0;
 }
 
-
+```
 
 ---
 
 
 
 
-
+```
 
 ---
